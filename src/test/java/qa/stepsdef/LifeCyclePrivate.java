@@ -1,6 +1,6 @@
 package qa.stepsdef;
 
-import com.qa.pages.HelperPage;
+import qa.pages.HelperPage;
 import org.apache.logging.log4j.ThreadContext;
 import org.jbehave.core.annotations.*;
 import utils.*;

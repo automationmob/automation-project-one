@@ -101,18 +101,14 @@ public class CapabilitiesManager {
                     caps.setCapability("autoGrantPermissions","true");
 
                     //ios app path src/test/resources/
-                    String androidAppUrl = System.getProperty("user.dir") + File.separator + "src"+File.separator+"test"
-                            +File.separator+"resources" +File.separator +"apps" +
-                            File.separator + params.getApp();
+                    String androidAppUrl = params.getApp();
                     utils.log().info("appUrl is" + androidAppUrl);
                     caps.setCapability("app", androidAppUrl);
                     break;
                 case "iOS":
                     caps.setCapability(MobileCapabilityType.AUTOMATION_NAME,"XCUITest");
                     //String iOSAppUrl = getClass().getResource(props.getProperty("iOSAppLocation")).getFile();
-                    String iOSAppUrl = System.getProperty("user.dir") + File.separator + "src"+File.separator+"test"
-                            +File.separator+"resources" +File.separator +"apps" +
-                            File.separator  + params.getApp();
+                    String iOSAppUrl = params.getApp();
                     utils.log().info("appUrl is" + iOSAppUrl);
                     caps.setCapability("app", iOSAppUrl);
                     caps.setCapability("bundleId", params.getBundleId());

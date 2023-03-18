@@ -1,0 +1,1095 @@
+2023-03-18 16:42:25:427 [Appium] Attempting to load plugin relaxed-caps...
+2023-03-18 16:42:25:430 [Appium] Requiring plugin at /Users/aziyadeh/.appium/node_modules/@appium/relaxed-caps-plugin
+2023-03-18 16:42:25:455 [Appium] Welcome to Appium v2.0.0-beta.46
+2023-03-18 16:42:25:458 [Appium] Non-default server args:
+2023-03-18 16:42:25:462 [Appium] { basePath: '/wd/hub',
+2023-03-18 16:42:25:463 [Appium]   port: 33844,
+2023-03-18 16:42:25:463 [Appium]   sessionOverride: true,
+2023-03-18 16:42:25:464 [Appium]   usePlugins: [ 'relaxed-caps' ] }
+2023-03-18 16:42:25:466 [Appium] Attempting to load driver xcuitest...
+2023-03-18 16:42:25:469 [Appium] Requiring driver at /Users/aziyadeh/.appium/node_modules/appium-xcuitest-driver
+2023-03-18 16:42:26:169 [Appium] Attempting to load driver espresso...
+2023-03-18 16:42:26:170 [Appium] Requiring driver at /Users/aziyadeh/.appium/node_modules/appium-espresso-driver
+2023-03-18 16:42:26:867 [Appium] Attempting to load driver uiautomator2...
+2023-03-18 16:42:26:869 [Appium] Requiring driver at /Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver
+2023-03-18 16:42:27:417 [Appium] Appium REST http interface listener started on 0.0.0.0:33844
+2023-03-18 16:42:27:418 [Appium] Available drivers:
+2023-03-18 16:42:27:418 [Appium]   - xcuitest@4.12.2 (automationName 'XCUITest')
+2023-03-18 16:42:27:418 [Appium]   - espresso@2.13.5 (automationName 'Espresso')
+2023-03-18 16:42:27:418 [Appium]   - uiautomator2@2.10.2 (automationName 'UiAutomator2')
+2023-03-18 16:42:27:418 [Appium] Available plugins:
+2023-03-18 16:42:27:419 [Appium]   - relaxed-caps@1.0.0-beta.13 (ACTIVE)
+2023-03-18 16:42:27:654 [HTTP] --> GET /wd/hub/status
+2023-03-18 16:42:27:654 [HTTP] {}
+2023-03-18 16:42:27:655 [AppiumDriver@c455] Calling AppiumDriver.getStatus() with args: []
+2023-03-18 16:42:27:657 [AppiumDriver@c455] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.46"}}
+2023-03-18 16:42:27:662 [HTTP] <-- GET /wd/hub/status 200 6 ms - 47
+2023-03-18 16:42:27:662 [HTTP] 
+2023-03-18 16:42:27:672 [HTTP] --> GET /wd/hub/status
+2023-03-18 16:42:27:673 [HTTP] {}
+2023-03-18 16:42:27:674 [AppiumDriver@c455] Calling AppiumDriver.getStatus() with args: []
+2023-03-18 16:42:27:675 [AppiumDriver@c455] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.46"}}
+2023-03-18 16:42:27:677 [HTTP] <-- GET /wd/hub/status 200 4 ms - 47
+2023-03-18 16:42:27:677 [HTTP] 
+2023-03-18 16:42:28:298 [HTTP] Request idempotency key: 54aefd22-eaca-4462-a5ec-ee7c862e8312
+2023-03-18 16:42:28:313 [HTTP] --> POST /wd/hub/session
+2023-03-18 16:42:28:314 [HTTP] {"desiredCapabilities":{"app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appPackage":"io.appium.android.apis","appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","deviceName":"Pixel_3a_API_30_x86","avd":"Pixel_3a_API_30_x86","appWaitDuration":99999,"appActivity":"","avdLaunchTimeout":99999,"newCommandTimeout":10000,"automationName":"UiAutomator2","autoGrantPermissions":"true","chromeDriverPort":"11073","platformName":"Android","avdReadyTimeout":15000,"systemPort":"10073"},"capabilities":{"firstMatch":[{"appium:app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appium:appActivity":"","appium:appPackage":"io.appium.android.apis","appium:appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","appium:appWaitDuration":99999,"appium:autoGrantPermissions":"true","appium:automationName":"UiAutomator2","appium:avd":"Pixel_3a_API_30_x86","appium:avdLaunchTimeout":99999,"appium:avdReadyTimeout":15000,"chromeDriverPort":"11073","appium:deviceName":"Pixel_3a_API_30_x...
+2023-03-18 16:42:28:316 [AppiumDriver@c455] Calling AppiumDriver.createSession() with args: [{"app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appPackage":"io.appium.android.apis","appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","deviceName":"Pixel_3a_API_30_x86","avd":"Pixel_3a_API_30_x86","appWaitDuration":99999,"appActivity":"","avdLaunchTimeout":99999,"newCommandTimeout":10000,"automationName":"UiAutomator2","autoGrantPermissions":"true","chromeDriverPort":"11073","platformName":"Android","avdReadyTimeout":15000,"systemPort":"10073"},null,{"firstMatch":[{"appium:app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appium:appActivity":"","appium:appPackage":"io.appium.android.apis","appium:appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","appium:appWaitDuration":99999,"appium:autoGrantPermissions":"true","appium:automationName":"UiAutomator2","appium:avd":"Pixel_3a_API_30_x86","appium:avdLaunchTimeout":99999,"appium:avdReadyTimeout":15000,"chromeDriverPort":"11073","appium:deviceName":"Pixel_3a_API_30_x86","appium:newCommandTimeout":1...
+2023-03-18 16:42:28:316 [AppiumDriver@c455] Plugins which can handle cmd 'createSession': relaxed-caps
+2023-03-18 16:42:28:316 [AppiumDriver@c455] Plugin relaxed-caps is now handling cmd 'createSession'
+2023-03-18 16:42:28:317 [Plugin [relaxed-caps]] Adjusted keys to conform to capability prefix requirements: ["chromeDriverPort"]
+2023-03-18 16:42:28:322 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'android'
+2023-03-18 16:42:28:322 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2023-03-18 16:42:28:322 [Appium] Will require it at /Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver
+2023-03-18 16:42:28:323 [Appium] Requiring driver at /Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver
+2023-03-18 16:42:28:323 [AppiumDriver@c455] Appium v2.0.0-beta.46 creating new AndroidUiautomator2Driver (v2.10.2) session
+2023-03-18 16:42:28:323 [AppiumDriver@c455] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2023-03-18 16:42:28:324 [AppiumDriver@c455] Appium's BaseDriver version is 8.7.3
+2023-03-18 16:42:28:324 [AppiumDriver@c455] AndroidUiautomator2Driver's BaseDriver version is 8.7.3
+2023-03-18 16:42:28:324 [AppiumDriver@c455] There are no active sessions for cleanup
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c] Creating session with W3C capabilities: {
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]   "alwaysMatch": {
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "platformName": "android",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:app": "/Users/aziyadeh/Documents/ApiDemos-debug.apk",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:appActivity": "",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:appPackage": "io.appium.android.apis",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:appWaitActivity": "o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:appWaitDuration": 99999,
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:autoGrantPermissions": "true",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:automationName": "UiAutomator2",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:avd": "Pixel_3a_API_30_x86",
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:avdLaunchTimeout": 99999,
+2023-03-18 16:42:28:326 [AndroidUiautomator2Driver@d24c]     "appium:avdReadyTimeout": 15000,
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]     "appium:chromeDriverPort": "11073",
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]     "appium:deviceName": "Pixel_3a_API_30_x86",
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]     "appium:newCommandTimeout": 10000,
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]     "appium:systemPort": "10073"
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]   },
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]   "firstMatch": [
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]     {}
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c]   ]
+2023-03-18 16:42:28:327 [AndroidUiautomator2Driver@d24c] }
+2023-03-18 16:42:28:330 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-03-18 16:42:28:332 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2023-03-18 16:42:28:335 [AndroidUiautomator2Driver@d24c] Capability 'autoGrantPermissions' changed from string to boolean. This may cause unexpected behavior
+2023-03-18 16:42:28:335 [AndroidUiautomator2Driver@d24c] Capability 'systemPort' changed from string ('10073') to integer (10073). This may cause unexpected behavior
+2023-03-18 16:42:28:335 [AndroidUiautomator2Driver@d24c] Capability 'chromeDriverPort' changed from string ('11073') to integer (11073). This may cause unexpected behavior
+2023-03-18 16:42:28:339 [AndroidUiautomator2Driver@d24c (b3a49b09)] Session created with session id: b3a49b09-ddc1-4ed9-8a85-d5df006080bc
+2023-03-18 16:42:28:342 [BaseDriver] Using local app '/Users/aziyadeh/Documents/ApiDemos-debug.apk'
+2023-03-18 16:42:28:358 [AndroidUiautomator2Driver@d24c (b3a49b09)] Checking whether app is actually present
+2023-03-18 16:42:28:377 [ADB] Found 5 'build-tools' folders under '/Users/aziyadeh/Library/Android/sdk' (newest first):
+2023-03-18 16:42:28:377 [ADB]     /Users/aziyadeh/Library/Android/sdk/build-tools/33.0.0
+2023-03-18 16:42:28:377 [ADB]     /Users/aziyadeh/Library/Android/sdk/build-tools/33.0.0-rc4
+2023-03-18 16:42:28:377 [ADB]     /Users/aziyadeh/Library/Android/sdk/build-tools/32.1.0-rc1
+2023-03-18 16:42:28:377 [ADB]     /Users/aziyadeh/Library/Android/sdk/build-tools/32.0.0
+2023-03-18 16:42:28:377 [ADB]     /Users/aziyadeh/Library/Android/sdk/build-tools/30.0.3
+2023-03-18 16:42:28:378 [ADB] Using 'adb' from '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb'
+2023-03-18 16:42:28:380 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2023-03-18 16:42:28:426 [ADB] Trying to find 'Pixel_3a_API_30_x86' emulator
+2023-03-18 16:42:28:426 [ADB] Getting connected emulators
+2023-03-18 16:42:28:427 [ADB] Getting connected devices
+2023-03-18 16:42:28:458 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"},{"udid":"emulator-5556","state":"device"}]
+2023-03-18 16:42:28:460 [ADB] 2 emulators connected
+2023-03-18 16:42:28:461 [ADB] Overriding /Users/aziyadeh/.emulator_console_auth_token with an empty string to avoid telnet authentication for emulator commands
+2023-03-18 16:42:28:464 [ADB] Executing Emulator console command: avd name
+2023-03-18 16:42:28:466 [ADB] Executing Emulator console command: avd name
+2023-03-18 16:42:28:467 [ADB] Found emulator 'Pixel_3a_API_30_x86' on port 5556
+2023-03-18 16:42:28:467 [ADB] Setting device id to emulator-5556
+2023-03-18 16:42:28:467 [AndroidDriver] Not launching AVD because it is already running.
+2023-03-18 16:42:28:468 [AndroidDriver] Using device: emulator-5556
+2023-03-18 16:42:28:469 [ADB] Using 'adb' from '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb'
+2023-03-18 16:42:28:470 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2023-03-18 16:42:28:499 [ADB] Setting device id to emulator-5556
+2023-03-18 16:42:28:500 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell getprop ro.build.version.sdk'
+2023-03-18 16:42:28:549 [ADB] Current device property 'ro.build.version.sdk': 31
+2023-03-18 16:42:28:549 [ADB] Getting device platform version
+2023-03-18 16:42:28:549 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell getprop ro.build.version.release'
+2023-03-18 16:42:28:586 [ADB] Current device property 'ro.build.version.release': 12
+2023-03-18 16:42:28:587 [ADB] Device API level: 31
+2023-03-18 16:42:28:587 [AndroidUiautomator2Driver@d24c (b3a49b09)] Relaxing hidden api policy
+2023-03-18 16:42:28:588 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2023-03-18 16:42:28:665 [AndroidDriver] Capability 'appWaitActivity' is expected to only include latin letters, digits, underscore, dot, comma and asterisk characters.
+2023-03-18 16:42:28:665 [AndroidDriver] Current value 'o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1' has non-matching character at index 21: 'o.SimpleChannelFlowKt$'
+2023-03-18 16:42:28:665 [AndroidDriver] Parsing package and activity from app manifest
+2023-03-18 16:42:28:740 [ADB] Package name: 'io.appium.android.apis'
+2023-03-18 16:42:28:740 [ADB] Main activity name: 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:28:740 [AndroidDriver] Parsed package and activity are: io.appium.android.apis/io.appium.android.apis.ApiDemos
+2023-03-18 16:42:28:741 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 wait-for-device'
+2023-03-18 16:42:28:776 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell echo ping'
+2023-03-18 16:42:28:818 [AndroidDriver] Pushing settings apk to device...
+2023-03-18 16:42:28:819 [ADB] Getting install status for io.appium.settings
+2023-03-18 16:42:28:820 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys package io.appium.settings'
+2023-03-18 16:42:28:914 [ADB] 'io.appium.settings' is installed
+2023-03-18 16:42:28:915 [ADB] Getting package info for 'io.appium.settings'
+2023-03-18 16:42:28:915 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys package io.appium.settings'
+2023-03-18 16:42:28:978 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('4.2.3' >= '4.2.3')
+2023-03-18 16:42:28:981 [ADB] There is no need to install/upgrade '/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2023-03-18 16:42:28:981 [ADB] Getting IDs of all 'io.appium.settings' processes
+2023-03-18 16:42:28:982 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell 'pgrep --help; echo $?''
+2023-03-18 16:42:29:062 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2023-03-18 16:42:29:115 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2023-03-18 16:42:29:116 [Logcat] Starting logs capture with command: /Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 logcat -v threadtime
+2023-03-18 16:42:29:153 [AndroidUiautomator2Driver@d24c (b3a49b09)] Forwarding UiAutomator2 Server port 6790 to local port 10073
+2023-03-18 16:42:29:156 [ADB] Forwarding system: 10073 to device: 6790
+2023-03-18 16:42:29:156 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 forward tcp:10073 tcp:6790'
+2023-03-18 16:42:29:201 [ADB] Getting install status for io.appium.uiautomator2.server
+2023-03-18 16:42:29:201 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys package io.appium.uiautomator2.server'
+2023-03-18 16:42:29:316 [ADB] 'io.appium.uiautomator2.server' is installed
+2023-03-18 16:42:29:316 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2023-03-18 16:42:29:316 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys package io.appium.uiautomator2.server'
+2023-03-18 16:42:29:575 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.7.4' >= '5.7.4')
+2023-03-18 16:42:29:575 [AndroidUiautomator2Driver@d24c (b3a49b09)] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2023-03-18 16:42:29:576 [ADB] Checking app cert for /Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.4.apk
+2023-03-18 16:42:29:615 [ADB] Using 'apksigner.jar' from '/Users/aziyadeh/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar'
+2023-03-18 16:42:29:618 [ADB] Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/aziyadeh/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.4.apk
+2023-03-18 16:42:31:339 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-18 16:42:31:340 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-18 16:42:31:340 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-18 16:42:31:340 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-18 16:42:31:340 [ADB] 
+2023-03-18 16:42:31:341 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v5.7.4.apk'
+2023-03-18 16:42:31:341 [ADB] '/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.4.apk' is signed with the default certificate
+2023-03-18 16:42:31:342 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2023-03-18 16:42:31:344 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys package io.appium.uiautomator2.server.test'
+2023-03-18 16:42:31:406 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2023-03-18 16:42:31:406 [ADB] Checking app cert for /Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2023-03-18 16:42:31:410 [ADB] Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/aziyadeh/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2023-03-18 16:42:31:950 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2023-03-18 16:42:31:950 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2023-03-18 16:42:31:950 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2023-03-18 16:42:31:950 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2023-03-18 16:42:31:950 [ADB] 
+2023-03-18 16:42:31:951 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-18 16:42:31:951 [ADB] '/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2023-03-18 16:42:31:951 [AndroidUiautomator2Driver@d24c (b3a49b09)] Server packages are not going to be (re)installed
+2023-03-18 16:42:31:956 [AndroidUiautomator2Driver@d24c (b3a49b09)] Waiting up to 30000ms for services to be available
+2023-03-18 16:42:31:957 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell pm list instrumentation'
+2023-03-18 16:42:32:022 [AndroidUiautomator2Driver@d24c (b3a49b09)] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2023-03-18 16:42:32:028 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2023-03-18 16:42:32:029 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2023-03-18 16:42:32:030 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2023-03-18 16:42:32:094 [ADB] Checking app cert for /Users/aziyadeh/Documents/ApiDemos-debug.apk
+2023-03-18 16:42:32:107 [ADB] Starting apksigner: /usr/bin/java -Xmx1024M -Xss1m -jar /Users/aziyadeh/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /Users/aziyadeh/Documents/ApiDemos-debug.apk
+2023-03-18 16:42:32:865 [ADB] apksigner stdout: Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+2023-03-18 16:42:32:865 [ADB] Signer #1 certificate SHA-256 digest: ff2c1b0d041edb6e32a5f7c190ca9c3e78c4ca2cddbbb76133fc30c40b291e30
+2023-03-18 16:42:32:865 [ADB] Signer #1 certificate SHA-1 digest: b3de7d52e6aa703f166c4ee6e921c2816278c393
+2023-03-18 16:42:32:865 [ADB] Signer #1 certificate MD5 digest: 7dce13e4e43fbe159a70f7a252cb0acf
+2023-03-18 16:42:32:865 [ADB] 
+2023-03-18 16:42:32:865 [ADB] '/Users/aziyadeh/Documents/ApiDemos-debug.apk' is signed with a non-default certificate
+2023-03-18 16:42:32:866 [ADB] Getting install status for io.appium.android.apis
+2023-03-18 16:42:32:866 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys package io.appium.android.apis'
+2023-03-18 16:42:32:914 [ADB] 'io.appium.android.apis' is not installed
+2023-03-18 16:42:32:914 [ADB] App '/Users/aziyadeh/Documents/ApiDemos-debug.apk' is not installed
+2023-03-18 16:42:32:914 [ADB] Installing '/Users/aziyadeh/Documents/ApiDemos-debug.apk'
+2023-03-18 16:42:32:915 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 help'
+2023-03-18 16:42:32:944 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 features'
+2023-03-18 16:42:32:973 [ADB] The application at '/Users/aziyadeh/Documents/ApiDemos-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2023-03-18 16:42:32:974 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 install -g /Users/aziyadeh/Documents/ApiDemos-debug.apk'
+2023-03-18 16:42:33:180 [ADB] The installation of 'ApiDemos-debug.apk' took 205ms
+2023-03-18 16:42:33:180 [ADB] Install command stdout: Performing Streamed Install
+2023-03-18 16:42:33:180 [ADB] Success
+2023-03-18 16:42:33:180 [AndroidUiautomator2Driver@d24c (b3a49b09)] Performing shallow cleanup of automation leftovers
+2023-03-18 16:42:33:196 [AndroidUiautomator2Driver@d24c (b3a49b09)] No obsolete sessions have been detected (socket hang up)
+2023-03-18 16:42:33:197 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell am force-stop io.appium.uiautomator2.server.test'
+2023-03-18 16:42:33:351 [AndroidUiautomator2Driver@d24c (b3a49b09)] Starting UIAutomator2 server 5.7.4
+2023-03-18 16:42:33:351 [AndroidUiautomator2Driver@d24c (b3a49b09)] Using UIAutomator2 server from '/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.4.apk' and test from '/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2023-03-18 16:42:33:352 [AndroidUiautomator2Driver@d24c (b3a49b09)] Waiting up to 30000ms for UiAutomator2 to be online...
+2023-03-18 16:42:33:352 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5556","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2023-03-18 16:42:33:374 [AndroidUiautomator2Driver@d24c (b3a49b09)] Matched '/status' to command name 'getStatus'
+2023-03-18 16:42:33:375 [AndroidUiautomator2Driver@d24c (b3a49b09)] Proxying [GET /status] to [GET http://127.0.0.1:10073/status] with no body
+2023-03-18 16:42:33:382 [AndroidUiautomator2Driver@d24c (b3a49b09)] socket hang up
+2023-03-18 16:42:33:887 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2023-03-18 16:42:34:385 [AndroidUiautomator2Driver@d24c (b3a49b09)] Matched '/status' to command name 'getStatus'
+2023-03-18 16:42:34:386 [AndroidUiautomator2Driver@d24c (b3a49b09)] Proxying [GET /status] to [GET http://127.0.0.1:10073/status] with no body
+2023-03-18 16:42:34:390 [AndroidUiautomator2Driver@d24c (b3a49b09)] socket hang up
+2023-03-18 16:42:35:398 [AndroidUiautomator2Driver@d24c (b3a49b09)] Matched '/status' to command name 'getStatus'
+2023-03-18 16:42:35:401 [AndroidUiautomator2Driver@d24c (b3a49b09)] Proxying [GET /status] to [GET http://127.0.0.1:10073/status] with no body
+2023-03-18 16:42:35:427 [AndroidUiautomator2Driver@d24c (b3a49b09)] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2023-03-18 16:42:35:427 [AndroidUiautomator2Driver@d24c (b3a49b09)] The initialization of the instrumentation process took 2075ms
+2023-03-18 16:42:35:428 [AndroidUiautomator2Driver@d24c (b3a49b09)] Matched '/session' to command name 'createSession'
+2023-03-18 16:42:35:429 [AndroidUiautomator2Driver@d24c (b3a49b09)] Proxying [POST /session] to [POST http://127.0.0.1:10073/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appActivity":"","appPackage":"io.appium.android.apis","appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","appWaitDuration":99999,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_3a_API_30_x86","avdLaunchTimeout":99999,"avdReadyTimeout":15000,"chromeDriverPort":11073,"deviceName":"Pixel_3a_API_30_x86","newCommandTimeout":10000,"systemPort":10073},"platformName":"android","app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appActivity":"","appPackage":"io.appium.android.apis","appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","appWaitDuration":99999,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_...
+2023-03-18 16:42:35:439 [AndroidUiautomator2Driver@d24c (b3a49b09)] Got response with status 200: {"sessionId":"1b9b281e-26e6-48e1-b939-c1c89014ef7a","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appActivity":"","appPackage":"io.appium.android.apis","appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","appWaitDuration":99999,"autoGrantPermissions":true,"automationName":"UiAutomator2","avd":"Pixel_3a_API_30_x86","avdLaunchTimeout":99999,"avdReadyTimeout":15000,"chromeDriverPort":11073,"deviceName":"Pixel_3a_API_30_x86","newCommandTimeout":10000,"systemPort":10073},"platformName":"android","app":"/Users/aziyadeh/Documents/ApiDemos-debug.apk","appActivity":"","appPackage":"io.appium.android.apis","appWaitActivity":"o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1","appWaitDuration":99999,"autoGrantPer...
+2023-03-18 16:42:35:440 [AndroidUiautomator2Driver@d24c (b3a49b09)] Determined the downstream protocol as 'W3C'
+2023-03-18 16:42:35:477 [AndroidUiautomator2Driver@d24c (b3a49b09)] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:10073/session/1b9b281e-26e6-48e1-b939-c1c89014ef7a/appium/device/info] with no body
+2023-03-18 16:42:35:500 [AndroidUiautomator2Driver@d24c (b3a49b09)] Got response with status 200: {"sessionId":"1b9b281e-26e6-48e1-b939-c1c89014ef7a","value":{"androidId":"f9bd4039d61a4ed8","apiVersion":"31","bluetooth":{"state":"ON"},"brand":"google","carrierName":"T-Mobile","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone64_arm64","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":4300,"linkUpstreamBandwidthKbps":1800,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities...
+2023-03-18 16:42:35:503 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window'
+2023-03-18 16:42:35:582 [AndroidDriver] Screen already unlocked, doing nothing
+2023-03-18 16:42:35:583 [AndroidUiautomator2Driver@d24c (b3a49b09)] Starting 'io.appium.android.apis/io.appium.android.apis.ApiDemos and waiting for 'io.appium.android.apis/o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1'
+2023-03-18 16:42:35:583 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell am start -W -n io.appium.android.apis/io.appium.android.apis.ApiDemos -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2023-03-18 16:42:36:203 [ADB] Waiting up to 99999ms for activity matching pkg: 'io.appium.android.apis' and activity: 'o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1' to be focused
+2023-03-18 16:42:36:205 [ADB] Possible activities, to be checked: 'o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1', 'io.appium.android.apis.o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1'
+2023-03-18 16:42:36:206 [ADB] Getting focused package and activity
+2023-03-18 16:42:36:206 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:36:282 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:36:283 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:36:789 [ADB] Getting focused package and activity
+2023-03-18 16:42:36:791 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:36:853 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:36:854 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:37:357 [ADB] Getting focused package and activity
+2023-03-18 16:42:37:357 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:37:409 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:37:409 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:37:910 [ADB] Getting focused package and activity
+2023-03-18 16:42:37:910 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:37:950 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:37:951 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:38:452 [ADB] Getting focused package and activity
+2023-03-18 16:42:38:452 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:38:514 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:38:514 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:39:016 [ADB] Getting focused package and activity
+2023-03-18 16:42:39:017 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:39:070 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:39:070 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:39:571 [ADB] Getting focused package and activity
+2023-03-18 16:42:39:571 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:39:624 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:39:624 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:40:125 [ADB] Getting focused package and activity
+2023-03-18 16:42:40:125 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:40:173 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:40:173 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:40:675 [ADB] Getting focused package and activity
+2023-03-18 16:42:40:675 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:40:719 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:40:720 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:41:225 [ADB] Getting focused package and activity
+2023-03-18 16:42:41:225 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:41:284 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:41:284 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:41:792 [ADB] Getting focused package and activity
+2023-03-18 16:42:41:794 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:41:861 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:41:862 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:42:367 [ADB] Getting focused package and activity
+2023-03-18 16:42:42:370 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:42:425 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:42:426 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:42:929 [ADB] Getting focused package and activity
+2023-03-18 16:42:42:930 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:42:990 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:42:990 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:43:493 [ADB] Getting focused package and activity
+2023-03-18 16:42:43:494 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:43:552 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:43:553 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:44:054 [ADB] Getting focused package and activity
+2023-03-18 16:42:44:054 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:44:111 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:44:111 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:44:613 [ADB] Getting focused package and activity
+2023-03-18 16:42:44:614 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:44:678 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:44:678 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:45:181 [ADB] Getting focused package and activity
+2023-03-18 16:42:45:182 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:45:237 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:45:237 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:45:739 [ADB] Getting focused package and activity
+2023-03-18 16:42:45:739 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:45:790 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:45:790 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:46:291 [ADB] Getting focused package and activity
+2023-03-18 16:42:46:293 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:46:337 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:46:337 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:46:839 [ADB] Getting focused package and activity
+2023-03-18 16:42:46:842 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:46:904 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:46:904 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:47:408 [ADB] Getting focused package and activity
+2023-03-18 16:42:47:410 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:47:467 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:47:467 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:47:969 [ADB] Getting focused package and activity
+2023-03-18 16:42:47:969 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:48:021 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:48:021 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:48:523 [ADB] Getting focused package and activity
+2023-03-18 16:42:48:523 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:48:567 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:48:567 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:49:069 [ADB] Getting focused package and activity
+2023-03-18 16:42:49:069 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:49:113 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:49:113 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:49:615 [ADB] Getting focused package and activity
+2023-03-18 16:42:49:615 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:49:656 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:49:657 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:50:159 [ADB] Getting focused package and activity
+2023-03-18 16:42:50:159 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:50:266 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:50:266 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:50:767 [ADB] Getting focused package and activity
+2023-03-18 16:42:50:769 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:50:813 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:50:813 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:51:315 [ADB] Getting focused package and activity
+2023-03-18 16:42:51:315 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:51:354 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:51:354 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:51:855 [ADB] Getting focused package and activity
+2023-03-18 16:42:51:855 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:51:897 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:51:897 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:52:398 [ADB] Getting focused package and activity
+2023-03-18 16:42:52:399 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:52:465 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:52:466 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:52:967 [ADB] Getting focused package and activity
+2023-03-18 16:42:52:967 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:53:017 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:53:017 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:53:518 [ADB] Getting focused package and activity
+2023-03-18 16:42:53:518 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:53:565 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:53:565 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:54:069 [ADB] Getting focused package and activity
+2023-03-18 16:42:54:070 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:54:134 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:54:134 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:54:637 [ADB] Getting focused package and activity
+2023-03-18 16:42:54:639 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:54:692 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:54:692 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:55:194 [ADB] Getting focused package and activity
+2023-03-18 16:42:55:195 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:55:251 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:55:251 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:55:754 [ADB] Getting focused package and activity
+2023-03-18 16:42:55:754 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:55:801 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:55:801 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:56:302 [ADB] Getting focused package and activity
+2023-03-18 16:42:56:302 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:56:349 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:56:349 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:56:851 [ADB] Getting focused package and activity
+2023-03-18 16:42:56:851 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:56:891 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:56:891 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:57:393 [ADB] Getting focused package and activity
+2023-03-18 16:42:57:393 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:57:437 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:57:437 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:57:938 [ADB] Getting focused package and activity
+2023-03-18 16:42:57:938 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:58:001 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:58:001 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:58:502 [ADB] Getting focused package and activity
+2023-03-18 16:42:58:502 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:58:599 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:58:599 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:59:101 [ADB] Getting focused package and activity
+2023-03-18 16:42:59:101 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:59:184 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:59:184 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:42:59:686 [ADB] Getting focused package and activity
+2023-03-18 16:42:59:688 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:42:59:757 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:42:59:758 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:00:259 [ADB] Getting focused package and activity
+2023-03-18 16:43:00:260 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:00:360 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:00:360 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:00:864 [ADB] Getting focused package and activity
+2023-03-18 16:43:00:866 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:00:940 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:00:941 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:01:443 [ADB] Getting focused package and activity
+2023-03-18 16:43:01:444 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:01:527 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:01:527 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:02:030 [ADB] Getting focused package and activity
+2023-03-18 16:43:02:032 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:02:110 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:02:111 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:02:613 [ADB] Getting focused package and activity
+2023-03-18 16:43:02:614 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:02:692 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:02:692 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:03:194 [ADB] Getting focused package and activity
+2023-03-18 16:43:03:194 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:03:265 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:03:265 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:03:767 [ADB] Getting focused package and activity
+2023-03-18 16:43:03:767 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:03:841 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:03:841 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:04:343 [ADB] Getting focused package and activity
+2023-03-18 16:43:04:343 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:04:384 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:04:385 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:04:886 [ADB] Getting focused package and activity
+2023-03-18 16:43:04:888 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:04:953 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:04:953 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:05:455 [ADB] Getting focused package and activity
+2023-03-18 16:43:05:461 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:05:538 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:05:539 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:06:046 [ADB] Getting focused package and activity
+2023-03-18 16:43:06:048 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:06:122 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:06:122 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:06:626 [ADB] Getting focused package and activity
+2023-03-18 16:43:06:628 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:06:702 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:06:702 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:07:205 [ADB] Getting focused package and activity
+2023-03-18 16:43:07:206 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:07:271 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:07:271 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:07:773 [ADB] Getting focused package and activity
+2023-03-18 16:43:07:774 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:07:842 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:07:842 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:08:345 [ADB] Getting focused package and activity
+2023-03-18 16:43:08:345 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:08:414 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:08:414 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:08:917 [ADB] Getting focused package and activity
+2023-03-18 16:43:08:918 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:08:988 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:08:988 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:09:488 [ADB] Getting focused package and activity
+2023-03-18 16:43:09:489 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:09:541 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:09:542 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:10:049 [ADB] Getting focused package and activity
+2023-03-18 16:43:10:050 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:10:117 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:10:117 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:10:619 [ADB] Getting focused package and activity
+2023-03-18 16:43:10:620 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:10:690 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:10:691 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:11:196 [ADB] Getting focused package and activity
+2023-03-18 16:43:11:198 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:11:256 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:11:256 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:11:758 [ADB] Getting focused package and activity
+2023-03-18 16:43:11:759 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:11:830 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:11:830 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:12:333 [ADB] Getting focused package and activity
+2023-03-18 16:43:12:334 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:12:414 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:12:414 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:12:917 [ADB] Getting focused package and activity
+2023-03-18 16:43:12:918 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:12:996 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:12:997 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:13:500 [ADB] Getting focused package and activity
+2023-03-18 16:43:13:501 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:13:577 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:13:577 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:14:080 [ADB] Getting focused package and activity
+2023-03-18 16:43:14:084 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:14:152 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:14:152 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:14:654 [ADB] Getting focused package and activity
+2023-03-18 16:43:14:655 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:14:729 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:14:729 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:15:230 [ADB] Getting focused package and activity
+2023-03-18 16:43:15:231 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:15:303 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:15:303 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:15:806 [ADB] Getting focused package and activity
+2023-03-18 16:43:15:807 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:15:885 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:15:886 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:16:387 [ADB] Getting focused package and activity
+2023-03-18 16:43:16:388 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:16:442 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:16:442 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:16:943 [ADB] Getting focused package and activity
+2023-03-18 16:43:16:943 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:17:004 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:17:005 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:17:507 [ADB] Getting focused package and activity
+2023-03-18 16:43:17:508 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:17:566 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:17:566 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:18:070 [ADB] Getting focused package and activity
+2023-03-18 16:43:18:072 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:18:147 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:18:147 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:18:650 [ADB] Getting focused package and activity
+2023-03-18 16:43:18:650 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:18:734 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:18:734 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:19:236 [ADB] Getting focused package and activity
+2023-03-18 16:43:19:237 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:19:294 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:19:294 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:19:796 [ADB] Getting focused package and activity
+2023-03-18 16:43:19:796 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:19:869 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:19:869 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:20:371 [ADB] Getting focused package and activity
+2023-03-18 16:43:20:372 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:20:435 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:20:435 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:20:939 [ADB] Getting focused package and activity
+2023-03-18 16:43:20:940 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:21:014 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:21:014 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:21:517 [ADB] Getting focused package and activity
+2023-03-18 16:43:21:519 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:21:595 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:21:595 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:22:100 [ADB] Getting focused package and activity
+2023-03-18 16:43:22:102 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:22:175 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:22:176 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:22:679 [ADB] Getting focused package and activity
+2023-03-18 16:43:22:680 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:22:757 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:22:757 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:23:260 [ADB] Getting focused package and activity
+2023-03-18 16:43:23:261 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:23:332 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:23:332 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:23:835 [ADB] Getting focused package and activity
+2023-03-18 16:43:23:838 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:23:907 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:23:907 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:24:410 [ADB] Getting focused package and activity
+2023-03-18 16:43:24:414 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:24:479 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:24:480 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:24:981 [ADB] Getting focused package and activity
+2023-03-18 16:43:24:982 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:25:051 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:25:051 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:25:554 [ADB] Getting focused package and activity
+2023-03-18 16:43:25:555 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:25:630 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:25:630 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:26:133 [ADB] Getting focused package and activity
+2023-03-18 16:43:26:134 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:26:209 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:26:209 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:26:712 [ADB] Getting focused package and activity
+2023-03-18 16:43:26:713 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:26:791 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:26:791 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:27:294 [ADB] Getting focused package and activity
+2023-03-18 16:43:27:297 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:27:375 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:27:376 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:27:879 [ADB] Getting focused package and activity
+2023-03-18 16:43:27:880 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:27:963 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:27:964 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:28:466 [ADB] Getting focused package and activity
+2023-03-18 16:43:28:468 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:28:540 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:28:541 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:29:043 [ADB] Getting focused package and activity
+2023-03-18 16:43:29:043 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:29:126 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:29:126 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:29:630 [ADB] Getting focused package and activity
+2023-03-18 16:43:29:632 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:29:708 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:29:708 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:30:212 [ADB] Getting focused package and activity
+2023-03-18 16:43:30:213 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:30:285 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:30:285 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:30:788 [ADB] Getting focused package and activity
+2023-03-18 16:43:30:789 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:30:864 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:30:864 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:31:366 [ADB] Getting focused package and activity
+2023-03-18 16:43:31:367 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:31:439 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:31:439 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:31:942 [ADB] Getting focused package and activity
+2023-03-18 16:43:31:943 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:32:018 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:32:018 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:32:520 [ADB] Getting focused package and activity
+2023-03-18 16:43:32:521 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:32:585 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:32:586 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:33:088 [ADB] Getting focused package and activity
+2023-03-18 16:43:33:089 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:33:159 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:33:159 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:33:660 [ADB] Getting focused package and activity
+2023-03-18 16:43:33:661 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:33:732 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:33:732 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:34:235 [ADB] Getting focused package and activity
+2023-03-18 16:43:34:236 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:34:307 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:34:307 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:34:810 [ADB] Getting focused package and activity
+2023-03-18 16:43:34:811 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:34:884 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:34:884 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:35:387 [ADB] Getting focused package and activity
+2023-03-18 16:43:35:387 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:35:458 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:35:458 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:35:960 [ADB] Getting focused package and activity
+2023-03-18 16:43:35:962 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:36:031 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:36:031 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:36:532 [ADB] Getting focused package and activity
+2023-03-18 16:43:36:533 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:36:603 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:36:603 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:37:108 [ADB] Getting focused package and activity
+2023-03-18 16:43:37:109 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:37:178 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:37:179 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:37:681 [ADB] Getting focused package and activity
+2023-03-18 16:43:37:682 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:37:751 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:37:751 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:38:255 [ADB] Getting focused package and activity
+2023-03-18 16:43:38:256 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:38:336 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:38:336 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:38:839 [ADB] Getting focused package and activity
+2023-03-18 16:43:38:840 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:38:922 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:38:923 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:39:427 [ADB] Getting focused package and activity
+2023-03-18 16:43:39:428 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:39:503 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:39:503 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:40:005 [ADB] Getting focused package and activity
+2023-03-18 16:43:40:005 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:40:075 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:40:075 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:40:577 [ADB] Getting focused package and activity
+2023-03-18 16:43:40:577 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:40:629 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:40:629 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:41:131 [ADB] Getting focused package and activity
+2023-03-18 16:43:41:131 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:41:208 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:41:208 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:41:710 [ADB] Getting focused package and activity
+2023-03-18 16:43:41:712 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:41:782 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:41:782 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:42:290 [ADB] Getting focused package and activity
+2023-03-18 16:43:42:291 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:42:352 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:42:352 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:42:855 [ADB] Getting focused package and activity
+2023-03-18 16:43:42:859 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:42:928 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:42:928 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:43:430 [ADB] Getting focused package and activity
+2023-03-18 16:43:43:431 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:43:503 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:43:503 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:44:004 [ADB] Getting focused package and activity
+2023-03-18 16:43:44:005 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:44:077 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:44:078 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:44:578 [ADB] Getting focused package and activity
+2023-03-18 16:43:44:579 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:44:649 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:44:649 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:45:151 [ADB] Getting focused package and activity
+2023-03-18 16:43:45:152 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:45:227 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:45:227 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:45:729 [ADB] Getting focused package and activity
+2023-03-18 16:43:45:729 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:45:806 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:45:806 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:46:309 [ADB] Getting focused package and activity
+2023-03-18 16:43:46:310 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:46:385 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:46:386 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:46:889 [ADB] Getting focused package and activity
+2023-03-18 16:43:46:890 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:46:961 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:46:962 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:47:465 [ADB] Getting focused package and activity
+2023-03-18 16:43:47:466 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:47:541 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:47:542 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:48:042 [ADB] Getting focused package and activity
+2023-03-18 16:43:48:043 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:48:112 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:48:113 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:48:614 [ADB] Getting focused package and activity
+2023-03-18 16:43:48:614 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:48:669 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:48:669 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:49:171 [ADB] Getting focused package and activity
+2023-03-18 16:43:49:175 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:49:248 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:49:249 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:49:751 [ADB] Getting focused package and activity
+2023-03-18 16:43:49:752 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:49:848 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:49:848 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:50:353 [ADB] Getting focused package and activity
+2023-03-18 16:43:50:354 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:50:432 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:50:432 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:50:934 [ADB] Getting focused package and activity
+2023-03-18 16:43:50:935 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:51:013 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:51:013 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:51:517 [ADB] Getting focused package and activity
+2023-03-18 16:43:51:518 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:51:593 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:51:593 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:52:095 [ADB] Getting focused package and activity
+2023-03-18 16:43:52:095 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:52:167 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:52:167 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:52:669 [ADB] Getting focused package and activity
+2023-03-18 16:43:52:670 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:52:743 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:52:743 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:53:247 [ADB] Getting focused package and activity
+2023-03-18 16:43:53:247 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:53:314 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:53:314 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:53:816 [ADB] Getting focused package and activity
+2023-03-18 16:43:53:817 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:53:892 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:53:892 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:54:394 [ADB] Getting focused package and activity
+2023-03-18 16:43:54:395 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:54:480 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:54:480 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:54:982 [ADB] Getting focused package and activity
+2023-03-18 16:43:54:983 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:55:055 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:55:055 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:55:558 [ADB] Getting focused package and activity
+2023-03-18 16:43:55:559 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:55:631 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:55:632 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:56:136 [ADB] Getting focused package and activity
+2023-03-18 16:43:56:137 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:56:221 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:56:221 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:56:726 [ADB] Getting focused package and activity
+2023-03-18 16:43:56:727 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:56:802 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:56:802 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:57:304 [ADB] Getting focused package and activity
+2023-03-18 16:43:57:305 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:57:386 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:57:387 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:57:888 [ADB] Getting focused package and activity
+2023-03-18 16:43:57:889 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:57:955 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:57:955 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:58:457 [ADB] Getting focused package and activity
+2023-03-18 16:43:58:458 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:58:529 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:58:529 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:59:032 [ADB] Getting focused package and activity
+2023-03-18 16:43:59:032 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:59:104 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:59:104 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:43:59:611 [ADB] Getting focused package and activity
+2023-03-18 16:43:59:612 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:43:59:673 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:43:59:673 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:00:175 [ADB] Getting focused package and activity
+2023-03-18 16:44:00:176 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:00:243 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:00:243 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:00:746 [ADB] Getting focused package and activity
+2023-03-18 16:44:00:749 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:00:820 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:00:820 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:01:323 [ADB] Getting focused package and activity
+2023-03-18 16:44:01:323 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:01:393 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:01:394 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:01:897 [ADB] Getting focused package and activity
+2023-03-18 16:44:01:898 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:01:978 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:01:978 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:02:481 [ADB] Getting focused package and activity
+2023-03-18 16:44:02:481 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:02:551 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:02:551 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:03:055 [ADB] Getting focused package and activity
+2023-03-18 16:44:03:056 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:03:129 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:03:129 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:03:631 [ADB] Getting focused package and activity
+2023-03-18 16:44:03:632 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:03:703 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:03:704 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:04:206 [ADB] Getting focused package and activity
+2023-03-18 16:44:04:216 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:04:290 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:04:290 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:04:799 [ADB] Getting focused package and activity
+2023-03-18 16:44:04:800 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:04:880 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:04:880 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:05:381 [ADB] Getting focused package and activity
+2023-03-18 16:44:05:383 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:05:447 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:05:447 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:05:951 [ADB] Getting focused package and activity
+2023-03-18 16:44:05:953 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:06:035 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:06:035 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:06:537 [ADB] Getting focused package and activity
+2023-03-18 16:44:06:538 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:06:596 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:06:596 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:07:100 [ADB] Getting focused package and activity
+2023-03-18 16:44:07:101 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:07:167 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:07:168 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:07:673 [ADB] Getting focused package and activity
+2023-03-18 16:44:07:677 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:07:741 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:07:741 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:08:243 [ADB] Getting focused package and activity
+2023-03-18 16:44:08:244 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:08:314 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:08:315 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:08:816 [ADB] Getting focused package and activity
+2023-03-18 16:44:08:817 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:08:888 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:08:890 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:09:393 [ADB] Getting focused package and activity
+2023-03-18 16:44:09:396 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:09:470 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:09:470 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:09:972 [ADB] Getting focused package and activity
+2023-03-18 16:44:09:973 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:10:041 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:10:041 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:10:543 [ADB] Getting focused package and activity
+2023-03-18 16:44:10:544 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:10:617 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:10:617 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:11:120 [ADB] Getting focused package and activity
+2023-03-18 16:44:11:120 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:11:194 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:11:194 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:11:696 [ADB] Getting focused package and activity
+2023-03-18 16:44:11:697 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:11:763 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:11:763 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:12:265 [ADB] Getting focused package and activity
+2023-03-18 16:44:12:265 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:12:335 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:12:335 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:12:836 [ADB] Getting focused package and activity
+2023-03-18 16:44:12:837 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:12:908 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:12:908 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:13:411 [ADB] Getting focused package and activity
+2023-03-18 16:44:13:412 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:13:491 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:13:492 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:13:995 [ADB] Getting focused package and activity
+2023-03-18 16:44:13:996 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:14:074 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:14:074 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:14:578 [ADB] Getting focused package and activity
+2023-03-18 16:44:14:578 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:14:651 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:14:651 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:15:155 [ADB] Getting focused package and activity
+2023-03-18 16:44:15:156 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:15:228 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:15:228 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:15:732 [ADB] Getting focused package and activity
+2023-03-18 16:44:15:739 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:15:821 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:15:821 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:16:206 [ADB] Getting focused package and activity
+2023-03-18 16:44:16:208 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys window displays'
+2023-03-18 16:44:16:277 [ADB] Found package: 'io.appium.android.apis' and fully qualified activity name : 'io.appium.android.apis.ApiDemos'
+2023-03-18 16:44:16:277 [ADB] Incorrect package and activity. Retrying.
+2023-03-18 16:44:16:280 [AndroidUiautomator2Driver@d24c (b3a49b09)] Deleting UiAutomator2 session
+2023-03-18 16:44:16:281 [AndroidUiautomator2Driver@d24c (b3a49b09)] Deleting UiAutomator2 server session
+2023-03-18 16:44:16:284 [AndroidUiautomator2Driver@d24c (b3a49b09)] Matched '/' to command name 'deleteSession'
+2023-03-18 16:44:16:286 [AndroidUiautomator2Driver@d24c (b3a49b09)] Proxying [DELETE /] to [DELETE http://127.0.0.1:10073/session/1b9b281e-26e6-48e1-b939-c1c89014ef7a] with no body
+2023-03-18 16:44:16:304 [AndroidUiautomator2Driver@d24c (b3a49b09)] Got response with status 200: {"sessionId":"1b9b281e-26e6-48e1-b939-c1c89014ef7a","value":null}
+2023-03-18 16:44:16:305 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+2023-03-18 16:44:16:322 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell am force-stop io.appium.android.apis'
+2023-03-18 16:44:16:389 [Logcat] Stopping logcat capture
+2023-03-18 16:44:16:392 [ADB] Removing forwarded port socket connection: 10073 
+2023-03-18 16:44:16:392 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 forward --remove tcp:10073'
+2023-03-18 16:44:16:429 [AndroidUiautomator2Driver@d24c (b3a49b09)] Restoring hidden api policy to the device default configuration
+2023-03-18 16:44:16:431 [ADB] Running '/Users/aziyadeh/Library/Android/sdk/platform-tools/adb -P 5037 -s emulator-5556 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2023-03-18 16:44:16:505 [AppiumDriver@c455] Command 'createSession' was *not* handled by the following behaviours or plugins, even though they were registered to handle it: ["default"]. The command *was* handled by these: ["relaxed-caps"].
+2023-03-18 16:44:16:552 [AppiumDriver@c455] Encountered internal error running command: Error: Cannot start the 'io.appium.android.apis' application. Consider checking the driver's troubleshooting documentation. Original error: 'o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1' or 'io.appium.android.apis.o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1' never started. Consider checking the driver's troubleshooting documentation.
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at ADB.startApp (/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/apk-utils.js:177:11)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at AndroidUiautomator2Driver.ensureAppStarts (/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:583:7)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:441:7)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at AndroidUiautomator2Driver.createSession (/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:239:7)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:336:35)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at RelaxedCapsPlugin.createSession (/Users/aziyadeh/.appium/node_modules/@appium/relaxed-caps-plugin/lib/plugin.js:58:12)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at /usr/local/lib/node_modules/appium/lib/appium.js:722:18
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at AppiumDriver.executeWrappedCommand (/usr/local/lib/node_modules/appium/lib/appium.js:762:16)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at AppiumDriver.executeCommand (/usr/local/lib/node_modules/appium/lib/appium.js:684:17)
+2023-03-18 16:44:16:553 [AppiumDriver@c455]     at asyncHandler (/usr/local/lib/node_modules/appium/node_modules/@appium/base-driver/lib/protocol/protocol.js:346:19)
+2023-03-18 16:44:16:562 [HTTP] <-- POST /wd/hub/session 500 108248 ms - 1205
+2023-03-18 16:44:16:562 [HTTP] 
+2023-03-18 16:44:17:225 [Instrumentation] .
+2023-03-18 16:44:17:246 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at Socket._writeGeneric (node:net:795:11)
+    at Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.<computed> [as debug] (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/lib/logsink.js:210:5)
+    at EventEmitter.emit (node:events:390:28)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/npmlog/lib/log.js:251:8)
+    at EventEmitter.<anonymous> (/usr/local/lib/node_modules/appium/node_modules/npmlog/lib/log.js:381:23)
+    at Object.debug (/usr/local/lib/node_modules/appium/node_modules/@appium/support/lib/logging.js:106:11)
+    at SubProcess.<anonymous> (/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/lib/uiautomator2.js:283:31)
+    at SubProcess.emit (node:events:390:28)
+    at handleOutput (/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/teen_process/lib/subprocess.js:172:14)
+    at Socket.<anonymous> (/Users/aziyadeh/.appium/node_modules/appium-uiautomator2-driver/node_modules/teen_process/lib/subprocess.js:215:48)
+2023-03-18 16:44:17:249 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at Socket._writeGeneric (node:net:795:11)
+    at Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:390:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/@appium/relaxed-caps-plugin/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aziyadeh/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/appium-espresso-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aziyadeh/.appium/node_modules/appium-espresso-driver/node_modules/signal-exit/index.js:199:34)
+2023-03-18 16:44:17:251 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at Socket._writeGeneric (node:net:795:11)
+    at Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:390:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/@appium/relaxed-caps-plugin/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aziyadeh/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/appium-espresso-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aziyadeh/.appium/node_modules/appium-espresso-driver/node_modules/signal-exit/index.js:199:34)
+2023-03-18 16:44:17:252 uncaughtException: write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (node:internal/stream_base_commons:164:15)
+    at writeGeneric (node:internal/stream_base_commons:155:3)
+    at Socket._writeGeneric (node:net:795:11)
+    at Socket._write (node:net:807:8)
+    at writeOrBuffer (node:internal/streams/writable:389:12)
+    at _write (node:internal/streams/writable:330:10)
+    at Socket.Writable.write (node:internal/streams/writable:334:10)
+    at Console.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/transports/console.js:51:25)
+    at Console._write (/usr/local/lib/node_modules/appium/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at Console.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.ondata (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:402:35)
+    at addChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:298:12)
+    at readableAddChunk (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:139:32)
+    at DerivedLogger._transform (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:313:12)
+    at DerivedLogger.Transform._read (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:177:10)
+    at DerivedLogger.Transform._write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_transform.js:164:83)
+    at doWrite (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:409:139)
+    at writeOrBuffer (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:398:5)
+    at DerivedLogger.Writable.write (/usr/local/lib/node_modules/appium/node_modules/readable-stream/lib/_stream_writable.js:307:11)
+    at DerivedLogger.log (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/usr/local/lib/node_modules/appium/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:390:28)
+    at process.emit (/usr/local/lib/node_modules/appium/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/usr/local/lib/node_modules/appium/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/@appium/relaxed-caps-plugin/node_modules/source-map-support/source-map-support.js:516:21)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/appium-xcuitest-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aziyadeh/.appium/node_modules/appium-xcuitest-driver/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/aziyadeh/.appium/node_modules/appium-espresso-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/aziyadeh/.appium/node_modules/appium-espresso-driver/node_modules/signal-exit/index.js:199:34)

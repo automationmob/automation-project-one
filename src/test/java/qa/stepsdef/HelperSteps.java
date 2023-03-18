@@ -1,6 +1,6 @@
 package qa.stepsdef;
 
-import com.qa.pages.HelperPage;
+import qa.pages.HelperPage;
 import org.assertj.core.api.SoftAssertions;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Named;
