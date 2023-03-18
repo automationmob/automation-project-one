@@ -1,0 +1,46 @@
+{
+  "mobileDriver": [{
+
+      "platform": "Android",
+      "execute": true,
+      "capabilities": {
+        "platformVersion": "12.0",
+        "deviceName": "Pixel 2 API 31",
+        "udid": null,
+        "avd": ["Pixel_3a_API_30_x86","Pixel_4_API_31","Pixel"],
+        "app": "MySTC4.34.0[4.34-Regression][4206][1970]PlayStore-developmentStub-release-protected.apk",
+        "systemPort": "10000",
+        "appPackage": "com.stc",
+        "appWaitActivity": "o.SimpleChannelFlowKt$simpleChannelFlow$1$1$producer$1$1",
+        "appActivity": "",
+        "chromeDriverPort": "11000"
+      }
+    },
+    {
+      "platform": "iOS",
+      "execute": false,
+      "capabilities": {
+        "platformVersion": "16.1",
+        "deviceName": ["iPhone 14 Pro","iPhone 14 Pro Max","iPhone 14"],
+        "udid": null,
+        "bundleId": "sa.com.stc.MySTCPreProd",
+        "app": "staging-4.33.app",
+        "wdaLocalPort": "10005",
+        "webkitDebugProxyPort": "11005"
+      }
+    }
+  ],
+
+  "jbehave": {
+    "threads":3,
+    "lifeCycle": "stander",
+    "meta": [
+      "-Login","-skip"
+    ],
+
+    "storiesPath": ["stories/02*/01*/01*/**.story"
+    ,"stories/02*/01*/02*/**.story",
+      "stories/02*/01*/03*/**.story"]
+  }
+
+}

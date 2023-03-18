@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>automation-mobile-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>15</maven.compiler.source>
+        <maven.compiler.target>15</maven.compiler.target>
+    </properties>
+<dependencies>
+    <dependency>
+        <groupId>org.jbehave.web</groupId>
+        <artifactId>jbehave-web-selenium</artifactId>
+        <version>4.0-beta-1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
+    <dependency>
+        <groupId>io.appium</groupId>
+        <artifactId>java-client</artifactId>
+        <version>7.6.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+    <dependency>
+        <groupId>org.assertj</groupId>
+        <artifactId>assertj-core</artifactId>
+        <version>3.23.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jbehave/jbehave-core -->
+    <dependency>
+        <groupId>org.jbehave</groupId>
+        <artifactId>jbehave-core</artifactId>
+        <version>4.8.3</version>
+    </dependency>
+    <dependency>
+        <groupId>com.github.valfirst</groupId>
+        <artifactId>jbehave-junit-runner</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.json/json -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20210307</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.17.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.17.1</version>
+    </dependency>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+    <dependency>
+        <groupId>com.googlecode.json-simple</groupId>
+        <artifactId>json-simple</artifactId>
+        <version>1.1.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.jsoup</groupId>
+        <artifactId>jsoup</artifactId>
+        <version>1.14.2</version>
+    </dependency>
+</dependencies>
+    <build>
+        <plugins>
+
+            <plugin>
+                <groupId>org.jbehave</groupId>
+                <artifactId>jbehave-maven-plugin</artifactId>
+                <version>4.8.3</version>
+                <executions>
+                    <execution>
+                        <id>embeddable-stories</id>
+                        <phase>integration-test</phase>
+                        <configuration>
+                            <includes>
+                                <include>**/Stories.java</include>
+                            </includes>
+                            <scope>test</scope>
+                            <sourceDirectory>src/main/java</sourceDirectory>
+                            <testSourceDirectory>src/test/java</testSourceDirectory>
+                            <!-- <skip>${skip}</skip> -->
+                            <batch>false</batch>
+                            <!--<threads>${threads}</threads>  -->
+                            <!-- <storyTimeoutInSecs>${story.timeout.in.secs}</storyTimeoutInSecs> -->
+                            <generateViewAfterStories>true</generateViewAfterStories>
+                            <!-- <ignoreFailureInStories>
+                                ${ignore.failre.in.stories}
+                            </ignoreFailureInStories>-->
+                            <ignoreFailureInView>true</ignoreFailureInView>
+                            <metaFilters>
+                                <!--<metaFilter>${meta.filter}</metaFilter>  -->
+                            </metaFilters>
+                            <systemProperties>
+                                <property>
+                                    <name>storiesPath</name>
+                                    <value>stories/02*/**/**.story</value>
+                                </property>
+                            </systemProperties>
+                        </configuration>
+                        <goals>
+                            <goal>run-stories-as-embeddables</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
