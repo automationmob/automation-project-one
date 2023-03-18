@@ -48,8 +48,6 @@ public class Threading extends Thread {
     emulator-5558 Pixel */
 
     public static void main(String[] args) {
-//        Stories stories=new Stories();
-//        stories.run();
         int rand = new Random().nextInt(90);
 
         JSONManager jsonManager=new JSONManager();

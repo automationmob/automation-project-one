@@ -2,8 +2,8 @@ package qa.runners;
 
 
 
-import com.qa.stepsdef.HelperSteps;
-import com.qa.stepsdef.LifeCyclePrivate;
+import qa.stepsdef.HelperSteps;
+import qa.stepsdef.LifeCyclePrivate;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.embedder.Embedder;
 import org.jbehave.core.embedder.StoryControls;
